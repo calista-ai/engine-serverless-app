@@ -1,0 +1,215 @@
+.result-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eef2f7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.result-error-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e6e9f0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.result-section .score-section {
+    padding: 2%;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 15px;
+    max-width: 1600px;
+
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.score-section .title {
+    padding: 1rem;
+}
+
+.score-section .title p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #7f83db;
+}
+
+.score-section .score-indicator {
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.score-section .webpage {
+    color: #3876ac;
+    word-wrap: break-word;
+    white-space: initial;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.score-section .webpage a {
+    color: #3876ac;
+    text-decoration: none;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 1.3em;
+    line-height: 1;
+    font-weight: 600;
+    outline: none;
+}
+
+.score-section .webpage a:hover {
+    text-decoration: none;
+    outline: none;
+
+    opacity: .7;
+}
+
+.score-section .webpage a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.score-section .webpage a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+
+.result-section .screenshot-section {
+    padding: 2%;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 15px;
+    max-width: 1600px;
+
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.screenshot-section .title {
+    padding: 1rem;
+}
+
+.screenshot-section .title p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #7f83db;
+}
+
+.screenshot-section .screenshot {
+    margin: 1rem 1rem;
+}
+
+.screenshot-section .screenshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.result-error-section .error-section {
+    padding: 2%;
+    margin: 2rem 0;
+    width: 96%;
+    border-radius: 15px;
+    max-width: 1600px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.error-section .error-illustration {
+    margin: 1rem 1rem;
+}
+
+.error-section .error-illustration img {
+    width: 100%;
+    max-width: 600px;
+
+    height: auto;
+
+}
+
+.error-section .content-text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.error-section .title {
+    text-align: center;
+    width: 100%;
+}
+
+.error-section .title p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #7f83db;
+}
+
+.error-section .title .webpage {
+    font-style: italic;
+    word-wrap: break-word;
+    white-space: initial;
+    font-weight: 400;
+    font-size: .9em;
+}
+
+
+.error-section .description {
+    padding: 1rem;
+    padding-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.error-section .description p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #7f83db;
+}
+
